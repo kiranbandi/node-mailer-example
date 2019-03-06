@@ -1,0 +1,27 @@
+{
+    "name": "node-mailer-example",
+    "version": "1.0.0",
+    "description": "NodeJS Rest API backend server that forwards API calls to an EMAIL ID",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kiranbandi/node-mailer-example.git"
+    },
+    "keywords": [
+        "aws",
+        "node"
+    ],
+    "author": "kiranbandi",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.16.3",
+        "nodemailer": "^4.6.7",
+        "promise": "^8.0.1"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.3"
+    }
+}
