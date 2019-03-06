@@ -18,10 +18,6 @@ const transporter = nodemailer.createTransport({
 
 mailer.sendMail = function(senderEmail, senderName, senderMessage) {
 
-    senderEmail = 'bvenkatkiran@gmail.com';
-    senderName = 'test';
-    senderMessage = 'asdasd asd asdsa sad asd dasd asd asd ';
-
     const mailOptions = {
         from: config.EMAIL,
         to: 'bvenkatkiran@gmail.com',
