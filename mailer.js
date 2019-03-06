@@ -22,7 +22,7 @@ mailer.sendMail = function(senderEmail, senderName, senderMessage) {
         from: config.EMAIL,
         to: 'bvenkatkiran@gmail.com',
         subject: 'Cloneswarm Project Report',
-        text: 'Hello,\n' + senderName +
+        text: 'Hello,\n\n' + senderName +
             ' sent you the following message :\n' +
             senderMessage + "\n\n Drop him a mail at " + senderEmail
     };
