@@ -4,7 +4,8 @@
     "description": "NodeJS Rest API backend server that forwards API calls to an EMAIL ID",
     "main": "app.js",
     "scripts": {
-        "start": "nodemon app.js"
+        "start": "nodemon app.js",
+        "prod": "node app.js"
     },
     "repository": {
         "type": "git",

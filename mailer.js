@@ -21,7 +21,7 @@ mailer.sendMail = function(senderEmail, senderName, senderMessage) {
     const mailOptions = {
         from: config.EMAIL,
         to: 'bvenkatkiran@gmail.com',
-        subject: 'Cloneswarm Project Report',
+        subject: 'My Test Project',
         text: 'Hello,\n\n' + senderName +
             ' sent you the following message :\n' +
             senderMessage + "\n\n Drop him a mail at " + senderEmail
